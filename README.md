@@ -13,6 +13,7 @@
 ## Objetivo
 Practicar branching, fork, pull request y merge.
 
+
 ## Alumno 7 (SARY CHARA)
 ## Tema investigado
 Merge y conflictos en Git
