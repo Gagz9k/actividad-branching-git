@@ -99,6 +99,67 @@ Un commit es una “foto” de los cambios del proyecto.
 Hacer commits pequeños nos otorga más orden, control y facilidad para detectar errores.
 Los commits ayudan a contar la historia completa del desarrollo.
 
+## Alumno 5 (Camila Valdebenito)
+# Debe investigar
+
+## ¿Qué significa trabajar local?
+Significa que los desarrolladores realizan su trabajo en su propio equipo, en vez de depender de servidores externos.  
+Con esto podemos trabajar en el código sin una conexión a internet y manipular realizando pruebas y cambios sin afectar a la aplicación en creación.
+
+## ¿Qué significa remoto?
+Es un repositorio alojado en un servidor externo.  
+Estos actúan como enlace entre tu repositorio local y otros repositorios externos, facilitando la gestión de versiones, la colaboración y el intercambio de cambios entre desarrolladores.
+
+## ¿Qué hace push?
+**PUSH** se utiliza para subir los cambios realizados en un repositorio local a un repositorio remoto.  
+Esto permite que otros colaboradores accedan a esos cambios.
+
+---
+
+# Debe responder
+
+## ¿Qué diferencia hay entre local y remoto?
+Existen varias diferencias:
+
+### DIFERENCIAS
+- El repositorio local está en tu equipo, mientras que el remoto está en un servidor externo.
+- El repositorio local permite trabajar sin conexión a internet.
+- El repositorio remoto facilita la colaboración entre múltiples desarrolladores.
+- El repositorio remoto actúa como respaldo del proyecto.
+
+## ¿Qué hace git push?
+Permite subir los commits desde tu rama (*branch*) local en tu repositorio Git local al repositorio remoto.
+
+## ¿Por qué un commit local no siempre aparece aún en GitHub?
+Existen varias razones:
+
+- El repositorio local no está actualizado.
+- La rama que contiene la confirmación haya sido eliminada.
+- Hubo un empuje forzado sobre la confirmación.
+
+Si el punto 2 o 3 sucede, significa que la confirmación puede quedar huérfana  
+y no se capturará en el clon local.
+
+# Ejemplo
+Supongamos que estás trabajando en un proyecto en tu computadora:
+
+Realizas cambios en un archivo.
+Guardas los cambios con un commit:
+          ```bash
+          git commit -m   "Agrego nueva funcionalidad"
+En este punto, el cambio **solo existe en tu repositorio local.**
+Para enviarlo al repositorio remoto (por ejemplo, en GitHub), utilizas:
+ git push origin main
+Ahora otros desarrolladores pueden ver y descargar tus cambios.
+
+## Conclusión Personal
+
+Trabajar con repositorios locales y remotos es fundamental en el desarrollo moderno de software. 
+El entorno local permite desarrollar y probar cambios de manera segura e independiente, mientras que el repositorio remoto facilita la colaboración y el respaldo del trabajo. 
+El uso de comandos como `git push` permite sincronizar ambos entornos, asegurando que los cambios estén disponibles para todo el equipo y evitando la pérdida de información.
+
+
+
 ## Alumno 7 (Sary Chara)
 ## Tema investigado
 Merge y conflictos en Git
