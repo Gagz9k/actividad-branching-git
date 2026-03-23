@@ -67,7 +67,8 @@ Se mantiene estable para que siempre exista una versión que sea funcional en el
 Significa el configurar reglas para que con ello no se puedan hacer cambios de forma directa sin una revisión previa. Esto nos asegura que solo los cambios que han sido revisados y aprobados se integren.
 
 ## Alumno 4 (Cristian Díaz)
-¿Qué es un commit y por qué es importante?
+
+## ¿Qué es un commit y por qué es importante?
 
 **•	¿Qué es un commit?**
 Un commit es como una “foto”, “instantanea” (snapshot) o punto de guardado que captura los cambios que se realizaron en un momento especifico dentro de un proyecto. Es importante porque funciona como un historial o punto de control, el cual sirve para revisar los cambios paso por paso o, en caso de algún error, volver a un estado anterior del código en que funcione correctamente.
