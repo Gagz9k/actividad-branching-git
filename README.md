@@ -66,7 +66,7 @@ Se mantiene estable para que siempre exista una versión que sea funcional en el
 ##  Qué significa proteger la rama principal
 Significa el configurar reglas para que con ello no se puedan hacer cambios de forma directa sin una revisión previa. Esto nos asegura que solo los cambios que han sido revisados y aprobados se integren.
 
-**Alumno 4 — Cristian Díaz**
+## Alumno 4 (Cristian Díaz)
 ¿Qué es un commit y por qué es importante?
 
 **•	¿Qué es un commit?**
@@ -116,7 +116,7 @@ Esto permite que otros colaboradores accedan a esos cambios.
 
 ---
 
-# Debe responder
+## Alumno 6 (Antonela Muñoz)
 
 ## ¿Qué diferencia hay entre local y remoto?
 Existen varias diferencias:
